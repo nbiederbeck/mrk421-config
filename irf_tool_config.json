@@ -1,0 +1,29 @@
+{
+  "DL3Cuts": {
+    "max_gh_cut": 1.0,
+    "min_gh_cut": 0.1,
+    "gh_efficiency": 0.9,
+    "max_theta_cut": 0.35,
+    "fill_theta_cut": 0.35,
+    "min_theta_cut": 0.05,
+    "theta_containment": 0.68
+  },
+  "IRFFITSWriter": {
+    "energy_dependent_theta": true,
+    "energy_dependent_gh": true,
+    "point_like": true,
+    "overwrite": true
+  },
+  "DataReductionFITSWriter": {
+    "source_ra": "166.114 deg",
+    "source_dec": "38.209 deg"
+  },
+  "DataBinning": {
+    "true_energy_min": 0.01,
+    "true_energy_max": 100.0,
+    "true_energy_n_bins_per_decade": 5,
+    "reco_energy_min": 0.001,
+    "reco_energy_max": 1000.0,
+    "reco_energy_n_bins_per_decade": 10
+  }
+}
