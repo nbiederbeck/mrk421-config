@@ -29,7 +29,7 @@ datasets:
       energy_true:
         min: 0.1 TeV
         max: 10 TeV
-        nbins: 5
+        nbins: 10
   background:
     method: "reflected"
     parameters: { min_distance_input: 10 deg }
